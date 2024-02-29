@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body h1 {
+    text-align: center;
+    padding: 24px;
+    background-color: gray;
+}
+
+
+.container {
+    margin: 24px;
+    display: flex ;
+    flex-wrap: wrap;
+}
+
+
+.section {
+    border: 1px solid black;
+}
+
+.title {
+    position: relative;
+    background-color: gray;
+    padding: 5px 10px;
+    border-bottom: 1px solid black;
+    text-align: right;
+}
+
+
+
+@media (min-width: 768px) {
+    .section {
+        width: 49%;
+    }
+}
+@media (min-width: 992px) {
+    .section {
+        width: 32%;
+    }
+}
